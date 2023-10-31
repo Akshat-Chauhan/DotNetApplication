@@ -16,7 +16,7 @@ namespace DotNetApplication.Controllers
         {
             IEnumerable<Category> objCategoryList = _db.Categories;
             return View(objCategoryList);
-            ///1:50:00
+            ///1:48:00
         }
     }
 }
